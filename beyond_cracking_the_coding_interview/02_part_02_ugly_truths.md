@@ -86,3 +86,30 @@ Tips
 - Never assume that the recruiter you're talking with now will still be there some months down the line
 
 ## Chapter 4 - What interviewers won't tell you
+
+- Failing to produce a working solution reduces your chances of passing by 37%
+
+  - If it's not working, it still needs to be very close
+
+- Why do many interviewers say that it's about the thought process instead of the final result, when clearly the final result matters?
+
+  - It feels good to say
+  - It used to be even more true
+
+- Interviewers are looking for strong problem solvers
+
+  - It's difficult to justify you're a strong problem solver if you can't reach a solution
+
+- Interviewer impression of you by the 18-minute mark is predictive
+- Our performance at the beginning should typically be predictive of the rest
+- Little mistakes are fine. They are looking at your performance as a process
+- Communication skills are nice, but technical skills are nicer
+  - Rapport building at the start (about yourself, your projects, etc)
+    - Data shows the little rapport at the beginning doesn't matter...much
+  - Clear communication throughout the interview
+    - Candidates who explain their approach do better in interviews
+- As roles become more senior, communication and behavioral skills play a bigger role
+- Think out loud
+- Spend the bulk of your time getting better at solving problems
+
+## Chapter 5 - Mindset and the numbers game

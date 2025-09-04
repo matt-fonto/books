@@ -113,3 +113,13 @@ Tips
 - Spend the bulk of your time getting better at solving problems
 
 ## Chapter 5 - Mindset and the numbers game
+
+- Technical interviewing is a number game
+
+  - Peer group that was going through the same things
+
+- Learn as much as you can, practice as much as you can, then learn some more and practice some more
+- Practice is CRITICAL
+- Number of interviews mattered more than starting technical proficiency
+  - 5 interviews is the tipping point
+- Be able to get more interviews and do better at those interviews

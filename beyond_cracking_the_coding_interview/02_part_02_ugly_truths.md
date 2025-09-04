@@ -55,3 +55,34 @@
 - Bucketed scoring
   - strong no-hire, no-hire, hire, strong hire
   - risk-averse scoring
+
+## Chapter 3 - What recruiters won't tell you
+
+> Show me the incentives, and I'll show you the outcome. Charlie Munger
+
+- Recruiters aren't your friend, nor do they work for you
+- Recruiter's bonus structure might reward certain behaviors, some of which run counter to the candidates' interest
+
+### 3rd Party recruiters
+
+- Realize, you're not the customer, the employer is
+- They want to get the deal done, not get you the best deal
+- A recruiter gets 8%-25% of a candidate's base salary
+  - This goes to the whole agency, not the individual recruiter
+- They're evaluated on the number of hires they make
+
+Tips
+
+- Don't tell them anything about your job search
+- Don't share your compensation history/expectations
+- Always deal directly with the companies they introduce you to, once you establish a point of contact there
+- Assume that anything you tell them is going to get back toevery company you're working with
+- Use email, not text/call. You're level the playing field
+
+### In house recruiters
+
+- They might get a bonus if they can negotiate you down
+
+- Never assume that the recruiter you're talking with now will still be there some months down the line
+
+## Chapter 4 - What interviewers won't tell you

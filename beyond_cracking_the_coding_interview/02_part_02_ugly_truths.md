@@ -24,4 +24,34 @@
 - Over time, companies switched from puzzles to algorithmic questions
   - More relevant to the field, but still focused on problem-solving skills
 
-## Chapter 2
+## Chapter 2 - What's broken about coding interviews
+
+- It's not uncommon that senior engineer perform worse in this than juniors, due to the fact it's been a while since they were in touch with DSA
+- Experienced engineers perform the worst of all groups
+- On average, it takes five mock interviews to start passing them
+- Bad questions
+  - Too academic, obscure
+  - Bad questions
+  - Too much memorization
+- You're more likely to pass interviews when you've seen the question before
+
+  - 65% against 49%
+  - 33% more likely to pass
+
+- In this process, you're meant to discuss approaches and ask questions, so that it can be seen if...
+
+  - ...you're the type of person who can adapt and learn fast
+  - ...can work well with others
+
+- Non-deterministic outcome
+
+  - 25% of people are consistent, the others all over the place
+  - 64% of the people who scored at least one 4 have also at least one 1 or one 2
+  - There's some significant random factor
+    - experience
+    - qualifications
+      don't fully explain it
+
+- Bucketed scoring
+  - strong no-hire, no-hire, hire, strong hire
+  - risk-averse scoring

@@ -160,3 +160,77 @@ They are most likely to contact you if:
 ### Cold outreach templates
 
 - These emails are much more effective than throwing your resume into the black hole of online portals
+
+[see cold_outreach.md on templates]
+
+## Chapter 8 - Mechanics of the interview process
+
+- Ask about the interview process
+  - Topics
+  - Format
+  - What to expect
+  - How you'll be evaluated
+
+### Steps
+
+#### 1. Source/apply (candiate review)
+
+- Passthrough rate around 10%
+
+#### 2. Recruiter call
+
+- Pass rate 75%
+- Ask the recruiter before the call, the specific requirements the role has
+  - Don't assume job descriptions are accurate
+  - Some matter, some don't. They are at most a laundry list of requirements
+- What are the non-negotiables for this role?
+
+  - Tell them you've read the job description, but just want to be sure
+
+- Questions to ask them
+
+```
+[If it's clear what the non-negotiables are]
+I've taken a close look at the job description, and I'm very excited for our call.
+
+
+[If it's not clear]
+- From what I can tell from the job description, the non-negotiable requirements are [insert bullet list here]. I just wanted to confirm that those are indeed correct
+
+Ahead of the call, would you mind sharing the non-negotiable requirements for this position?
+
+I want to make sure I'm prepared to speak to how I meet those requirements and to make the best use of our time together
+```
+
+- Hiring managers want somebody that's smart and gets shit done
+- If you don't have some requirements... the best thing is that you can do is to show you possess many of the same traits as people who do
+
+##### Mistake to avoid
+
+- Don't reveal your compensation...
+  - history
+  - expectation
+- Don't reveal where else you're interviewing and where you're in the process
+
+##### Questions to ask
+
+- What are the steps of the rest of the process?
+- How long does it take to get through the process, on average?
+- What to expect during the technical phone screen
+  - Types of questions: DSA or practical?
+  - Tooling
+- Components of the onsite
+- What are the reasons most candidates fail the tehnical and the onsite?
+- Is there something I should've asked, but missed?
+
+#### 3. Technical interview
+
+- 25% of candidates pass through this
+- The objective is just to cut people who aren't likely to pass the onsite
+- Does asking questions at the end matter?
+
+  - 50% of interviews don't care
+  - 25% expect you to ask somethign
+  - 25% want to see curiosity
+
+- Therefore, prepare some basic questions about the company, role, team, or technology

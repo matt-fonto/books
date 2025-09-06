@@ -234,3 +234,47 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
   - 25% want to see curiosity
 
 - Therefore, prepare some basic questions about the company, role, team, or technology
+
+#### 4. Onsite
+
+- They shoot for a 33% to 50% approval at this stage, since for the company it's also expensive
+
+##### Format
+
+1. Coding: 1-3 rounds
+2. System design: 1-2 rounds. More common if you have some years of experience
+3. Behavioral: 1-2 rounds
+
+##### What to avoid
+
+- Asking about work/life balance verbatim
+  - Instead:
+    - What a typical day looks like
+    - How the team productivity happens
+- Questions that should go to HR
+  - Ask about the work, not the vacations
+- Silly time fillers or personal questions
+
+##### Good questions from candidates
+
+- Just ask some stuff about the company and tech
+- Not asking anything sounds as indifference
+
+##### Team Caliber/Culture
+
+- What are cool/exciting/fulfilling/technically complex project you've worked on here so far?
+- What made you choose this company first of all?
+
+##### Engineering
+
+- What does your typical day look like?
+- What is your stack?
+- How would you describe the engineering philosophy here?
+- What is the ratio of working on new stuff vs. iterating on existing stuff?
+- What is the most costly technical decision made early on that the company is still living with now?
+
+##### Product voice/visibility into the business side
+
+##### Attrition
+
+##### Entrepreneurship

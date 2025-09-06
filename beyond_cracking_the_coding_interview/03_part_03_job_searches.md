@@ -296,3 +296,38 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
 - Meaning, applying for a job you're not much in the mood to do, just to test how it goes
 - The authors don't think this is the best way to invest your time
   - Companies, depending on the size, having different hiring bars
+  - Throwaway interviews...
+    - are different from the real thing
+    - don't give you feedback
+    - might accidentally become real
+
+> Candidates usually underestimate their performance 3x more often than they overestimate
+
+- But, if you still decide to do them..
+  - Pick companies whose interview styles are as close as possible to your target company
+  - Choose companies with comparable bars to your target companies
+  - Try to get detailed feedback
+
+> "Based on my performance in this interview, is there anything I should study up on ahead of my futurue interviews? Anything you can share would be awesome. I won't argue the point and will just take some notes"
+
+### How to balanace timing for practice vs. outreach
+
+- One of the hardest things is balancing outreach to companies with interview prep
+
+  - How much personal runway do you have, and how much time can you dedicate to interview prep?
+
+### Tips
+
+- Don't wait until you feel ready to outreach. Start with this. It can drag on for months
+  - Thus, giving you enough time to study after you find your rhythm
+- If you don't hear back from companies after a month or two, review your messages and target list
+- Once you're comfortable with DSA, simulate as much as possible interview scenarios
+  - Time yourself
+  - Practice walking through your thought process
+- Add mock interviews with another person once you get your footing
+  - Mock interviews weekly
+  - 10+ mock interviews before onsite is a good goal
+- If possible, try to divide outreach and interview prep. Otherwise, know that it'll be an uphill battle
+- If still working, take your time, but once you start doing it, limit it to 3 months, otherwise it can become tiring
+- Don't underestimate the tool of job searching
+  - The authors strongly advise against planning for more than 3 months of job searching

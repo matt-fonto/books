@@ -275,6 +275,24 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
 
 ##### Product voice/visibility into the business side
 
-##### Attrition
+- What are cool things that were last release? Where did it come from?
+- What makes this company unique compared with other players?
 
 ##### Entrepreneurship
+
+- How many former employees have gone on to found startups?
+
+[Company guides](https://interviewing.io/topics#companies)
+
+## Chapter 9 - Managing your job search
+
+- Timing is important
+- "Air traffic" control is important, it allows you to control the offers you have and how many choices
+
+[Job seach worksheet](https://start.interviewing.io/beyond-ctci/part-iii-job-searches/managing-your-job-search#worksheet-1)
+
+#### Should you use other companies to experiment?
+
+- Meaning, applying for a job you're not much in the mood to do, just to test how it goes
+- The authors don't think this is the best way to invest your time
+  - Companies, depending on the size, having different hiring bars

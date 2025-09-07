@@ -331,3 +331,26 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
 - If still working, take your time, but once you start doing it, limit it to 3 months, otherwise it can become tiring
 - Don't underestimate the tool of job searching
   - The authors strongly advise against planning for more than 3 months of job searching
+
+### Postponing interviews if you're not ready
+
+> Algorithmic interviews determines whether you get an offer, and system design determines how you're leveled
+
+- Recruiters don't really care when you interview
+- If interviewing at large companies, most engineering roles will be evergreen
+
+  - If interviewing for a small one, check if postponing might cause you to loose the offer
+
+- It's okay to say you need some time to prepare
+  - However, schedule the interview for a few months, don't leave it open
+- Better to postpone than fail
+
+### Air traffic control: Stalling and speeding up
+
+#### Speeding up
+
+- In some situations, you want the company to expedite your interview
+- When doing so, it's better to talk about wrapping up on sites rather then mentioning offers
+  - Galvanize them without scaring them off
+  - FAANG-adjacent companies like Stripe don't want to lose candidates to FAANG, and planting the seed it's a good way to mobilize them
+- If interviewing at earlier stage startup, DO NOT use your FAANG onsites as leverage

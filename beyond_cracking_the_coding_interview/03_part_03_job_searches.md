@@ -347,6 +347,8 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
 
 ### Air traffic control: Stalling and speeding up
 
+- You have more time to stall or speed up after you've been approved at the technical interview and before the onsite
+
 #### Speeding up
 
 - In some situations, you want the company to expedite your interview
@@ -354,3 +356,14 @@ I want to make sure I'm prepared to speak to how I meet those requirements and t
   - Galvanize them without scaring them off
   - FAANG-adjacent companies like Stripe don't want to lose candidates to FAANG, and planting the seed it's a good way to mobilize them
 - If interviewing at earlier stage startup, DO NOT use your FAANG onsites as leverage
+- Startups might also be turned off if you mention you're also interview for a direct competitor, and might take this as a lack of loyalty, especially if talking with the founder
+  - After a certain size, these things stop being personal
+
+#### Slowing down
+
+#### Questions to ask hiring managers
+
+- Which project on the roadmap are you personally most excited about, and why?
+- What can I do to minimize the onboarding time and become as effective as fast as possible?
+- What have been some failure modes for past hires? What should I do to make sure to avoid it?
+  - You're much more likely to get honest answers from hiring managers than from recruiters

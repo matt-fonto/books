@@ -185,3 +185,56 @@ See: `what_to_say_getting_offer.md`
 #### Boom markets: The reverse used car salesman
 
 - Which company would be your first choice if money was out of the table
+- This is the moment, we start showing our cards
+- You can negotiate your:
+  - Equity
+    - 50%-100% increase
+    - 1.5x of your best competing offer
+  - Signing bonus
+    - Startup seed stage: "meaningful signing bonus"
+    - Startup beyond seed stage: 15% of your base salary
+    - Large company: 25% of base salary
+  - Salary
+    - The trickier for employeers to grant
+    - Don't over index on the salary ranges you see published online
+    - Bands are at maximum polite suggestions
+- By demanding 3, you'll likely get 2
+- Whatever you ask for, the counterpart will meet you halfway
+  - "Law of midpoints"
+
+#### Down markets: The laddder
+
+- In a down market, recruiters become conservative and not that willing to match much of your wants
+- It takes much more work to get results
+- Pick your first choice
+- Make 2 rankings:
+
+  - Excitement about the company/role
+  - Initial offer size
+
+- Once you have these 2 lists, glom them together
+
+  - The goal is to get comp from highest to lowest while still taking into account excitement
+
+- Then, you start negotiating from the bottom upwards and see what you can get
+
+See: `closing_out.md`
+
+- While you wait for offers of the bottom, you can start negotiating with the top
+
+#### Offer deadlines and how negotiation resets the clock
+
+- Every time you start to negotiate, the clock resets
+- Once the ball is in their court, time is on your side
+
+#### Negotiating with founders vs. recruiters
+
+- If negotiating with a founder, things get different
+- For founders, everything is personal
+
+  - The company is their baby
+
+- So, what to do?
+  - When founders ask you where you're interviewing, soften the recommended copy
+  - Say that you understand startups can't pay the same thing as FAANG
+  - You may be able to negotiate much more equity than cash

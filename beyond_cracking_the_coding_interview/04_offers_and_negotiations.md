@@ -104,7 +104,7 @@ Mistakes to avoid:
 
 All snippets end with: **I promise not to accept other offers until I have a change to discuss them with you**
 
-See: `what_to_say_recruiters_beginning_process`
+See: `what_to_say_recruiters_beginning_process.md`
 
 #### Comp expectation
 
@@ -137,3 +137,16 @@ See: `what_to_say_recruiters_beginning_process`
 
 - Most engineers who are actively interviewing are still employed
   - Whem almost everyone else has something, it's not considered leverage
+
+## Chapter 13: Getting the offer: Exactly what to say
+
+- Up until negotiation stage, be single-mindedly air traffic controlling
+- Create options and leverage
+- Once you have multiple options, decide where you want to go
+- Even though the recruiter wants you to response immediately, you should not
+  - How to buy time?
+    - You definitely don't want to negotiate over the phone, on the spot
+
+See: `what_to_say_getting_offer.md`
+
+- Exploring offers are a high-pressure tactic aimed at preventing you from exploring elsewhere by imposing tight deadlines

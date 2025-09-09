@@ -106,4 +106,34 @@ All snippets end with: **I promise not to accept other offers until I have a cha
 
 See: `what_to_say_recruiters_beginning_process`
 
+#### Comp expectation
+
 - The goal is to avoid locking yourself into a number too early while keeping the conversation open
+
+#### Timeline
+
+- They will often ask you how far along you're with other companies, and where you're interviewing
+- Should you be vague or specific?
+
+  - Ask them during the call how long the process takes on average
+    - It will help you how you approach the timeline question
+
+- Use this [worksheet](https://docs.google.com/spreadsheets/d/1Ar8aGAlLzR4XFqBYRomD4agHs8HLP-4R4Uq1AiCPdas/edit#gid=0) to help you estimate how long the process will take at each of the companies
+
+- If the company you're talking to is among the slowest, don't reveal your timeline
+  - Slower companies: it doesn't serve you to reveal timeline because there's nothing the recruiter can do to speed up the process
+    - Except try to apply high-pressure tactics to make you accept an offer
+- If they are faster than a few of the companies you're talking to, you should reveal your timeline
+  - Fast-moving companies: good to manage expectations upfront that it may take you a bit longer to get to a decision
+
+### Multiple offers: The best way to get more money
+
+- Leverage is important
+- Try to get an offer `_____` you do technical screen
+  - good market: 1/4 companies
+  - rough market: 1/6 companies
+
+#### Having a job isn't leverage
+
+- Most engineers who are actively interviewing are still employed
+  - Whem almost everyone else has something, it's not considered leverage

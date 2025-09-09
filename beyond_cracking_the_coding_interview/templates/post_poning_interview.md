@@ -1,1 +1,0 @@
-Hey [name], I’m really excited about interviewing at [company name]. Unfortunately, if I’m honest, I haven’t had a chance to practice as much as I’d like. I know how hard and competitive these interviews are, and I want to put my best foot forward. I think I’ll realistically need a couple of months to prepare. How about we schedule my interview for [date]?

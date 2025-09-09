@@ -150,3 +150,38 @@ See: `what_to_say_recruiters_beginning_process.md`
 See: `what_to_say_getting_offer.md`
 
 - Exploring offers are a high-pressure tactic aimed at preventing you from exploring elsewhere by imposing tight deadlines
+
+## Chapter 14: How to negotiate
+
+### How to negotiate if you don't have multiple offers
+
+- If you're actively interviewing, play companies off each other
+  - Looming onsite is already enough to get a small increase in compensation
+  - Especially effective if interviewing for a competitor of your target company
+
+#### If you this is your only offer and you have no other interviews
+
+- You should try not to be in this position
+- It's quite hard to negotiate without leverage
+- What to do?
+
+1. Lie about other offers
+
+- avoid this as much as possible
+
+2. Lie about interviews
+
+- as point 1, avoid it
+  "I'm wrapping up a few onsites and have several phone screens coming up"
+
+3. Bring up existing compensation
+
+4. Try to negotiate without bringing up other companies
+
+"I'm close to making a decision. Is there any possibility we could attach a signing bonues to my offer? If so, I'd be willing to sign immediately"
+
+### How to negotiate if you have multiple offers
+
+#### Boom markets: The reverse used car salesman
+
+- Which company would be your first choice if money was out of the table

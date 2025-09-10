@@ -129,3 +129,65 @@ Every company wants an engineer who...
 
 - If you're not sure about what your interviewer is looking for, just ask
 - If you've shown ownership and large contribution (was given minimal direction and didn't have many people to ask), make sure you mention this out
+
+### Generating your stories
+
+#### Story generation
+
+- Have at least 3 technical projects and 5 stores that you're comfortable to go in depth
+
+##### Strategy 1: Category-based generation
+
+Most behavioral questions can be grouped into a few basic categories:
+
+1. Accomplishments & challenges
+   - What are you most proud of?
+   - Where did you hit obstacles and how did you overcome them?
+2. Leadership, influence & decision-making
+   - How did you drive alignment on your team and across teams?
+   - What decisions did you make, and how did you influence people to agree?
+   - When have you proposed a change or something new?
+3. Conflicts & collaboration
+   - When have you disagreed with teammates?
+   - Are there other conflicts you have faced and how did you address these?
+4. Enjoyment & learning
+   - What did you like doing?
+   - What did you learn (technologies, approaches)?
+5. Mistakes & failure
+   - What mistakes did you make?
+   - When have you struggled, or even failed?
+
+##### Strategy 2: Signal-based generation (strengths, weaknesses, and values)
+
+- Your strengths
+  - What are you really good at?
+  - How would people describe you?
+  - Demonstrate them through technical stories
+- Your weaknesses
+  - These stories should lead to mistakes and failures and ideally redemption
+  - Interviewers feel candidates who haven't made big mistakes haven't had big responsibilities
+    - or that the candidate isn't sincere
+    - story about a mistake + actual personal weakness + growth (acknowledgement of the weakness + what you learned and how you've improved) = powerful
+- The company's values
+
+### Leveling
+
+- Mistakes that people make in behavioral interviews that cause them to get down-leveled
+
+1. Not showing conflict resolution skills/inability to work with difficult people
+2. Not matching stores/project scope to seniority level
+3. Not talking about process-level improvements
+4. Not enough examples given of mentorship
+5. Not thinking about long-term impact of their choices/solutions
+6. Not good at delegating
+7. Not talking about how thye are/would be a force multiplier
+
+Your stories should include:
+
+- Suggesting/making architectural changes/contribution to the design of the project
+- Capacity to deliver within time/requirements constraint
+- Mentoring your peers
+- Proactively communicating with non-engineering members
+  - product managers
+  - salespeople
+  - other stakeholders

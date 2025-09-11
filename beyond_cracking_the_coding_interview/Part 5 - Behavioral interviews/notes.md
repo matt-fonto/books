@@ -191,3 +191,26 @@ Your stories should include:
   - product managers
   - salespeople
   - other stakeholders
+
+### Assess your project
+
+- When applying to Mid-to-senior role, choosing the correct project matters much more
+- Your score should be between 5-7
+
+- Can you clearly articulate the impact that you made, preferable with numbers? (+1 point)
+  - Did the project have well-defined metrics? (+1 point)
+    - Did you come up with the metrics? (+1 point)
+- Did you make any meaningful architectural decisions as part of this project? (+1 point)
+- Did you advocate for putting in some kind of process or some changes that made future projects better? (+1 point)
+  - Were you able to actually implement the said project? (+1 point)
+- Do you remember this project in enough detail, to the point where you'd be comfortable answering in depth if your interviewer asks about what you would have done if some constraints were different? (+1 point)
+
+## Chapter 17 - How to say it
+
+- Behavioral interviews are about
+  - your experiences
+  - your skills
+  - how well you communicate
+    - can you explain complex ideas clearly?
+    - can you tell a compelling story?
+    - communication is the bridge between your experience and your interviewer's understanding

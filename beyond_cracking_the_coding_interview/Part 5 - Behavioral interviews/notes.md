@@ -214,3 +214,50 @@ Your stories should include:
     - can you explain complex ideas clearly?
     - can you tell a compelling story?
     - communication is the bridge between your experience and your interviewer's understanding
+
+### The STAR method
+
+- Situation: the problem
+- Task: what you needed to do
+- Action: how you did it
+- Result: what happened then
+
+- Highlight a problem, then show your awesomeness on how you solved it and the goodness that followed
+  - "If this person can solve this problem, then they can help solve our company's problems too"
+
+"Tell me about a time when you fixed a problem at work"
+
+#### Situation - The problem/context
+
+- Sets the context and outlines just enough information to make them interested
+  - they should know the importance of your solution
+  - before the denouement, we must have trigger
+
+"What was the problem and why it mattered?"
+
+- Don't start throwing buzzwords, give the context
+- If you work at a company that not many people know about, it's strongly suggested to include a few sentences explaining
+
+  - what the companby does
+  - why what you worked on mattered for the business
+  - by doing this, your bullets are contextualized
+
+##### Task - The solution
+
+- Outline the goals, constraints and/or the chosen solution
+
+```txt
+{describe your solution to the problem you mentioned previously (situation)}
+
+In order to solve this problem, we decided to [insert solution description here].
+
+{if it makes sense, you should also explain why you chose this solution, possibly over others}
+
+We thought this was a good solution because [insert reason here]
+
+--- Even something like "my task was to..." works well
+```
+
+##### Action - The implementation
+
+##### Result - the consequence

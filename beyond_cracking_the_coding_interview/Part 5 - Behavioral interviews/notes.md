@@ -218,9 +218,14 @@ Your stories should include:
 ### The STAR method
 
 - Situation: the problem
+  - What was the issue and why it matters?
 - Task: what you needed to do
+  - What was the solution?
 - Action: how you did it
+  - How you implemented it?
 - Result: what happened then
+
+  - What happened after?
 
 - Highlight a problem, then show your awesomeness on how you solved it and the goodness that followed
   - "If this person can solve this problem, then they can help solve our company's problems too"
@@ -260,4 +265,35 @@ We thought this was a good solution because [insert reason here]
 
 ##### Action - The implementation
 
+- How you solved the problem
+- What was your contribution?
+- Break down action into several components. This can be:
+  - phases of the project
+  - different steps
+  - different attemps
+  - different challenges
+  - usually 3 pieces are good
+
 ##### Result - the consequence
+
+- Did you succeed or fail?
+- How better did it become?
+- How did you and the team grow from this experience?
+- What could you have done better, even if the project was a success?
+- How did this experience change you for the better?
+
+### Preparing and practicing
+
+Create a matrix with, then add some bullet points to them:
+
+|                      | Answer 1 | Answer 2 |
+| -------------------- | -------- | -------- |
+| situation            |          |          |
+| task                 |          |          |
+| action               |          |          |
+| result               |          |          |
+| signal               |          |          |
+| learning/improvement |          |          |
+
+- Practice your answers out loud
+- 3-4 minutes per question

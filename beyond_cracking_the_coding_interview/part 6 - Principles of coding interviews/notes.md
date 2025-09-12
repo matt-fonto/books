@@ -124,3 +124,32 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
 - When you've learned a good chunks of topics, it's time to move to phase 2
 
 ### Study plan tips
+
+- No cramming: shorter, more frequent sessions
+
+  - 1h daily
+
+- Plan for your worst week
+- Plan with your willpower in mind
+- Schedule time to practice
+- Schedule inputs, not the output: Instead of "learning dynamic programming", think "spend an hour per day learning dynamic programming"
+- Declare an endpoint
+
+#### Effective Study tips for practice
+
+- Use active learning
+- Deliberate practice
+  - Refine weak points
+  - Use
+    - cheat sheet
+    - bug list
+    - post-mortem
+- Seek challenge over question counts
+- Leverage AI wisely
+- Suffering is optional
+  - stick with one-hour maximum timebox, even for hard problems
+- Generate multiple interview solutions
+  - instead of finding one solution, can you find many to the same problem?
+- Respect time limits
+  - If you can't design the algo in 20min and up to 1h in total, check the hint or solution
+  - Also do a thorough post-mortem

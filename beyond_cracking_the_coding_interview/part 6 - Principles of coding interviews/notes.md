@@ -442,8 +442,21 @@ Common edge cases that you can ask about depending on the nature of the input
   - Non-letter or non-ASCII characters in a string
 
 - Multi-dimensional arrays and strings:
+
   - Grids with different numbers of rows and columns
   - Different string lengths in an array of strings
 
+- Other:
+  - Null/"None" values or pointers
+
+You can also ask what is allowed in the output
+
 2. Input and output format
+
+- There are many ways to represent data, check which would be better
+- Don't assume you're allowed to modify the input
+  - If you want to have this, check with interviewer if it's allowed
+
 3. Scale constraints
+
+- "Are there any constraints on how big the input could be?"

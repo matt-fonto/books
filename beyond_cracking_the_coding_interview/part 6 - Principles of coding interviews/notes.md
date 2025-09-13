@@ -153,3 +153,51 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
 - Respect time limits
   - If you can't design the algo in 20min and up to 1h in total, check the hint or solution
   - Also do a thorough post-mortem
+
+## Chapter 19 - How you're evaluated
+
+### The universal rubrics
+
+- Problem solving
+- Coding
+- Verification
+- Communication
+
+#### Problem solving - "Are you smart?"
+
+- Problem-solving portion of a coding interview is meant to be an intelligence test
+
+- That's why already knowing the algorithm isn't terribly impressive and doesn't earn you bonus points
+
+  - They don't want you to know how to do this, they want to see if you can figure it out
+  - It's about the journey, not the destination
+
+- Goals
+  - Exploring multiple solutions
+  - Identifying obstacles
+  - Evaluating tradeoffs
+  - Working to improve your algorithm
+  - Demonstrate appropriate knowledge of computer science fundamentals
+    - Big 0 analysis
+    - Data structures
+
+##### Rubric questions
+
+- How much difficulty did they have finding an algorithm and optimizing it, relative to the difficulty of the problem?
+- How much help did they need, relative to other candidates?
+- Did they discuss tradeoffs in terms of time and space complexity?
+- Did they use appropriate data structures and algorithms to solve the problem?
+
+- Interviewers will often compare your performance on a question to other candidates they've asked the same question to
+
+  - You don't need to solve the problem optimally or without help, you just need to do better than most other candidates
+
+- How to solve it better?
+  - Master big O analysis: Chapter 21
+  - Use boundary thinking and trigger thinking: Chapters 22, 22
+  - Learn general problem-solving strategies: Chapter 23
+  - Learn as many topics from the Catalog as possible to add to the tools in your toolbelt
+  - Learn reusable ideas, which capture ideas that can be consistently deployed across a wide number of problems
+  - Grinding problems
+
+#### Coding

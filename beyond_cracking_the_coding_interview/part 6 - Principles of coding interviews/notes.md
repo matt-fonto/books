@@ -163,6 +163,8 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
 - Verification
 - Communication
 
+> The majority of what matters is that your code works and has the asymptotic complexity expected by the interviewer
+
 #### Problem solving - "Are you smart?"
 
 - Problem-solving portion of a coding interview is meant to be an intelligence test
@@ -202,11 +204,11 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
   - Learn reusable ideas, which capture ideas that can be consistently deployed across a wide number of problems
   - Grinding problems
 
-#### Coding
+#### Coding - "Can you solve the problem?"
 
 - It's about: code structure, knowledge of your programming language, and clean code
 
-#### Rubric questions
+##### Rubric questions
 
 - Could they translate their ideas into correct code?
 - Did they overcomplicate the logic?
@@ -217,7 +219,7 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
 - Is the code well organized and idiomatic to the language used?
 - Did they demonstrate internalized software engineering principles?
 
-#### How to code faster
+##### How to code faster
 
 - Short, but meaningful variable names
   - `i` and `j` on loops are fine
@@ -234,7 +236,7 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
   - Then, do a pass to make improvements
 - Keep comments to a minimum
 
-#### How to write clear code
+##### How to write clear code
 
 - Follow universal good coding practices
   - DRY: if copy/paste, create reusable function
@@ -248,3 +250,64 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
   - If in doubt, you can pretend something exists or it's like that
   - Most companies don't actually have you run your code
 - Stick with conventional libraries
+
+#### Verification
+
+- Strong verification signals come from:
+  - At the beginning: when you do requirements gathering
+    - Considering edge cases before diving into coding
+  - At the end: when we check the correctness of the code with test cases and examples
+
+##### Rubric
+
+- Did they ask good clarification questions?
+  - Questions that weren't already answered in the question description or examples
+- Did they proactively consider edge cases?
+- Did they test their code or provide a good argument for its correctness?
+- Were they able to spot and fix any bugs?
+
+#### Communication
+
+- Coding interviews offer a window of what it's like to collaborate with you
+- Thinking out load is essential, but neuopng a baseline, it may not significantly impact outcome
+
+##### Rubric
+
+- Were they able to clearlyu communicate their thoughts, even when the conversation got technical?
+- Were they able to answer technical questions?
+- Were they open to feedback?
+- If they were confused, were they able to articulate why?
+
+##### Tips
+
+- Whatever you do, **keep your interviewer in the loop**
+  - From the interviewer perpsective, it's frustrating candidates that are lost in though and it's not clear what they are thinking
+  - If you need some minutes to think in silence about the problem, that's totally fine. Just let the interviewer know
+- Use computer science terminology to **showcase your depth of knowledge**
+  - "I will use a hashmap" vs "I will use a hash map because it provides constant-time lookups"
+    - Second one shows more depth, without deviating from the conversation thread
+- Use the **Name-and-Justify** technique
+- Be a responsive listener. It's not only about what you say, but how you pay attention to their commments
+  - Considering implications
+  - Being willing to pivot based on their inputs
+  - If you're going down a path, and they suggest something, listen to them
+- Writing things down
+  - Writing the big O analysis
+- Don't argue with your interviewer
+  - Even if you're right, it won't help you
+- Listen the problem attentively
+  - Read with calm. It's much better to read once slowly and understand it than needing to come back to it
+    - You can't solve a problem you don't understand
+- Attempting to rush interview steps typically backfires
+  - "Slow is smooth. Smooth is fast"
+- When writing pseudocode, use "indented English"
+- Most companies just want to make sure you're:
+  - Independent and resourceful: in an interview this is about finding your own way to get unstuck instead of asking for help
+  - Collaborative
+  - Friendly and enthusiastic: remember the interviewer's name
+  - Asking thoughtful engineering-specific questions
+  - Not a jerk
+- Structur:
+  - Take 5 minutes to read the question
+  - Take 5 minutes to write pseudo code
+    - This helps the interviewer giving you feedback

@@ -188,6 +188,8 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
 - Did they discuss tradeoffs in terms of time and space complexity?
 - Did they use appropriate data structures and algorithms to solve the problem?
 
+---
+
 - Interviewers will often compare your performance on a question to other candidates they've asked the same question to
 
   - You don't need to solve the problem optimally or without help, you just need to do better than most other candidates
@@ -201,3 +203,48 @@ Use the AI to help picking the problems: https://start.interviewing.io/interview
   - Grinding problems
 
 #### Coding
+
+- It's about: code structure, knowledge of your programming language, and clean code
+
+#### Rubric questions
+
+- Could they translate their ideas into correct code?
+- Did they overcomplicate the logic?
+- Did they demonstrate good coding hygiene?
+  - Clear variable names
+  - Abstracting relevant code into reusable helper functions
+  - Consistent and reasonable style?
+- Is the code well organized and idiomatic to the language used?
+- Did they demonstrate internalized software engineering principles?
+
+#### How to code faster
+
+- Short, but meaningful variable names
+  - `i` and `j` on loops are fine
+- If roadblocked, come back after
+  - If stuck on a technical detail, add a TODO comment to return after
+- Keep error handling simple
+  - Normally, it's okayt ti return -1 for an invalid value, instead of raising an exception
+  - You can check with the interviewer if that's okay
+- Don't bother validating that the input will be what the interviewer/prompt said
+  - You don't need to check the inputs, but in any case you can add a mock function that would do it
+    `checkInputs()`
+- Don't optmize on the first pass
+  - First, get your code working
+  - Then, do a pass to make improvements
+- Keep comments to a minimum
+
+#### How to write clear code
+
+- Follow universal good coding practices
+  - DRY: if copy/paste, create reusable function
+  - Avoid mutable global variables
+  - Try to reduce side effects
+  - Consistent style
+- Write idiomatic code: following conventions and mannerisms of the language
+- Get familiar with recipes
+  - Reusable pseudocode snippets can be captured into "recipes"
+- Make stuff up
+  - If in doubt, you can pretend something exists or it's like that
+  - Most companies don't actually have you run your code
+- Stick with conventional libraries

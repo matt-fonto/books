@@ -233,3 +233,109 @@ Orders to consider them:
 > It's important to mention once again: describe your approach before coding
 
 ### 3. Explain the solution
+
+- Whatever solutions we found, we must keep the interviewer in the loop
+- Back and forth: designing your algorithm + explaining your ideas to the interviewer
+- It's important for your communication score
+- It'll help you you figure out how to structure the code better when you get to it
+
+#### Tips
+
+1. We can complement explanation with indented English
+   - Similar to brute force solution
+2. Use examples to illustrate ideas
+3. Use the **name-and-justify** technique
+
+> Important: Don't forget to include the time and space analysis when explaning algorithms to your interviewer
+
+#### Name-and-justify technique
+
+- Whenever you choose an algorithm, data structure, or technique, it's important to **name it and justify why you choose it**
+
+| Quality | Reason                       | You say...                                                                                                    | Your interviewer thinks..                                                |
+| ------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Bad     | Justified, without naming it | "I will use a data structure to _track the smallest element efficiently_"                                     | Do you mean a min-heap? Do you know it's called a min-heap?              |
+| Bad     | Named, without justifying it | "I will use a _heap_ instead of storing things in a list                                                      | Ok, but do you know why a heap is appropriate, or are you just guessing? |
+| Good    | Justified and named it       | "I will use a _heap_ because it allows me to _retrieve the next smallest element in the dataset efficiently_" | I understand what you're doing and why you're doing                      |
+
+- Even for brute force, naming and justifying is hugely important
+
+  > "I will start sketching a _brute force_ solution to _have a working baseline and then try to improve it_
+
+- **Naming the high-level idea and justifying it demonstrates a solid understanding of the CS principle and clear communication skills**
+
+### 4. Get buy-in
+
+- Now that we have:
+  1. Understood the problem: read statement (twice), work through examples (outloud), ask clarifying questions
+  2. Designed the algorithm: naive solution, indented English, lower and upper bounds, triggers, boosters (boosters help developers crack algos)
+  - Brute force
+  - Hunt props
+  - Decrease difficulty
+  - Catalog
+  - Articulate blocker
+  3. Explained the solution: examples, indented English, name and justify
+     ... we still shouldn't start coding yet
+
+Next, step is making sure the interviewer understands what we're trying to do and is on board with it by getting them to "buy-in"
+
+#### The magic question
+
+- Coding requires consent
+
+> I'd like to use <X algo> with <Y time> and <Z space> to solve the problem. Should I code now, or should I keep thinking?
+
+- Why is this important?
+
+  - You propose what you think it's an optimal answer, but a better solution exists
+  - You propose a solution that appears to work, but has a flaw
+  - Your interviewer got distracted, or you're not sure if they followed your explanation of the solution you're proposing
+
+- The magic question includes time and space complexity, meaning we must analyze the proposed solution before starting to code
+
+### 5. Code the solution
+
+- Now, we have buy-in for our solution, time to translate it into actual code!
+- **Write top-down, not bottom-up**
+
+  - Write the code as a single function with the overall logic
+    - no loose code
+  - Write the main logic first, using yet-to-be-written helper methods
+
+- Example
+
+```js
+// main logic
+function invert(expression) {
+  if (!expression) {
+    return -1;
+  }
+
+  // yet-to-be-written code
+  const min = getMin(expression);
+  const max = getMax(expression);
+
+  let count = 0;
+
+  for (let value = min; value < max; value++) {
+    count += search(expression, value);
+  }
+
+  return count;
+}
+```
+
+- If you find yourself struggling, you don't actually understand what you're doing. Once you have a clear solution, designing the algorithm should be fairly straightforward
+
+  - If you're struggling or getting confused while coding, stop and go back to your example
+
+- "Do I need to talk while I code?"
+
+  - Don't read the code as you type! Simply, describe what you're about to do after each logical step:
+    - `<code>`
+  - "Now, we need to start the depth-first search if the located one isn't in our visited set"
+    - `<code>`
+
+- However, don't stress too much about it at this stage. Most interviewers are fine with complete silence if you've clearly explained the algorithm before you started coding
+  - If you're not coding, describe what you're thinking
+  - It's alright to ask the interviewer a minue to think quietly if you need it

@@ -339,3 +339,15 @@ function invert(expression) {
 - However, don't stress too much about it at this stage. Most interviewers are fine with complete silence if you've clearly explained the algorithm before you started coding
   - If you're not coding, describe what you're thinking
   - It's alright to ask the interviewer a minue to think quietly if you need it
+
+### 6. Verify the solution
+
+- Before saying you're done, verify the solution
+
+1. Read the solution top to bottom
+2. Identify possible issues
+3. Run through the code with tiny input
+4. Check edge cases
+
+- Proactively suggesting tests without prompting is a positive signal in an interview
+  - Offer it, and see what they say

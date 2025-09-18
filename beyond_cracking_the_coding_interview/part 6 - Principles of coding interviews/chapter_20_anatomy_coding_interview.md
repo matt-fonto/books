@@ -351,3 +351,54 @@ function invert(expression) {
 
 - Proactively suggesting tests without prompting is a positive signal in an interview
   - Offer it, and see what they say
+
+#### How to test manually
+
+- Testing by hand is completely different than running unit tests
+- It means walking through your code, line by line, explaining what's happening
+
+##### Mistakes to avoid
+
+1. Testing the concept, not the code
+
+- Run through the code
+- Do the calculation
+
+2. Not thinking as you go
+
+- At each line, briefly think: is this the right result?
+
+#### Fixing bugs
+
+- Avoid hotfixes and the death spiral
+- Death spiral is when you need a bunch of hotfixes to fix other hot fixes
+- Found a bug? No problem:
+  - Think about the cause
+  - Where did the bug originate from?
+  - What's the best way to fix it?
+
+#### Verify your analysis
+
+- Your initial high-level plan might diverge from the actual implementation
+  - So, it's always good to write at the end your final and space complexity
+
+```txt
+Can you optimize after you code?
+After designing the algorithm, you ask the magic question, whether you can start coding, and they said "yes". Chances are you created a brute force algo, and this is fine.
+
+They might have said yes to:
+- start coding as soon as viable to have you more time to code
+- the optimal answer is too complex
+- optimal answer can be very short and involves some trick
+  - So, brute force gives more coding signal about your code structure etc
+
+In case you have time, you can go back to Step 2: Design the algo, and perhaps only think through it, without actually implementing it
+```
+
+### 7. After the question
+
+- Whatever happens, don't erase or overwrite what you did for the first question
+
+### Key takeaways
+
+- Every company is different, so it's always a good idea to ask your recruiter what to expect

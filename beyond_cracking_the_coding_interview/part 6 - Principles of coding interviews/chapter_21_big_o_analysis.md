@@ -81,7 +81,7 @@ f(n) = O(n^2 + n * (2n + 2)) //wrap it inside big O
 | Constant                  | O(1)                           | Growth rate doesn't depend on input                                                                              |
 | Logarithmic               | O(log n)                       | Slow growth rate. When input doubles, the value increases by a constant                                          |
 | Linear                    | O(n)                           | Operations proportional to growth rate                                                                           |
-| Linearithmic              | O(n log n)                     | Slightly faster growth than linear                                                                               |
+| Linearithmic/Log-linear   | O(n log n)                     | Slightly faster growth than linear                                                                               |
 | Quadratic                 | O(n^2) (Big Oh of n `squared`) | When the input doubles, the value quadruples                                                                     |
 | Cubic                     | O(n^3) (Big Oh of n `cubed`)   | When the input doubles, the value increases eight-fold                                                           |
 | Exponential (with base 2) | O(2^n)                         | Extremely fast growth rate. When the input grows by one, the value can double                                    |
@@ -101,6 +101,14 @@ f(n) = O(n^2 + n * (2n + 2)) //wrap it inside big O
 
 ### Time Complexities
 
+- Constant: O(1)
+- Logarithmic: O(log n)
+- Linear: O(n)
+- Linearithmic: O(n log n) (common in sorting)
+- Polynomial: O(n^c), c > 1 (quadratic, cubic, etc.)
+- Exponential: O(c^n), c > 1
+- Factorial: O(n!)
+
 #### Polynomial time complexity vs. Exponential time complexity
 
 Polynomial time complexity: O(n^c) (Big Oh of n to the c)
@@ -116,3 +124,7 @@ Exponential time complexity: O(c^n) (Big Oh of c to the n)
 - Any exponential time complexity grows faster than every polynomial time complexity
   - So, in algo, polynomial > exponential
 - Factorial grows faster than any exponential time complexity
+
+![alt text](image.png)
+
+> See chapter_21_big_o_challenge.md

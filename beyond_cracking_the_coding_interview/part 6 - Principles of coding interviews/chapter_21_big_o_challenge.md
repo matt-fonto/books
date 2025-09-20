@@ -49,22 +49,53 @@ n^3 (polynomial) < 3^n (exponential)
 
 c. O(2^n + 2^(n+1))
 
-- O(2^n)
+- O(2^n) ✅
+
+```txt
+in more detail
+
+2^(n+1) can be rewritten as 2 * 2^n, so n is being multiplied by a constant
+```
 
 ---
 
 d. O(2^n + 2^(n+n))
 
-- O(2^n)
+- O(2^n) ❌ -> my answer
+- O(4^n) ✅ -> the correct answer
+
+```txt
+in more detail
+
+2^(n+n) is 2 * 2 * 2 ... (n times)
+By grouping pairs of twos, we can rewrite
+(2 * 2)^n = 4^n
+```
 
 ---
 
 e. O(2^n + 3^n)
 
-- O(3^n)
+- O(3^n) ✅
+
+```txt
+in more detail
+
+compare the terms
+2^n < 3^n, since the exponent is the same (n), 3^n dominates 2^n
+
+When comparing exponential functions with the same exponent, the higher base dominates
+```
 
 ---
 
 f. O(10^n + n!)
 
-- O(n!)
+- O(n!) ✅
+
+```txt
+in more detail
+- Factorial always grows faster than exponential
+```
+
+Result: 5/6

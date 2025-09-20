@@ -128,3 +128,33 @@ Exponential time complexity: O(c^n) (Big Oh of c to the n)
 ![alt text](image.png)
 
 > See chapter_21_big_o_challenge.md
+
+### Runtime analysis with Big O
+
+- Much like a mathematical function, an algorithm takes an input and computes an output
+- What we care about is how long that computation takes as a function of input size (Big O notation)
+
+- What really matters is counting how many instructions are executed. So how do we do it?
+  - 1st: Look for loops in the code
+
+```py
+def has_even_length(arr):
+  is_even = true
+
+  # single loop: big o(n): linear
+  for element in arr:
+    is_even = not is_even
+
+  return is_even
+
+def sum_of_products(arr):
+  prod_sum = 0
+
+  # nested loop: big o(n^2): polynomial
+    # each of the n iterations, we do n iterations on the second loop
+  for elem1 in arr:
+    for elem2 in arr:
+      prod_sum += elem1 * elem2
+
+  return prod_sum
+```

@@ -138,3 +138,7 @@ Exponential time complexity: O(c^n) (Big Oh of c to the n)
   - 1st: Look for loops in the code
 
 > See chapter_21_loop_analysis.md
+
+#### Time complexity of built-in methods
+
+- The built-in methods also take space and time, therefore, they must be counted as part of your algorithm

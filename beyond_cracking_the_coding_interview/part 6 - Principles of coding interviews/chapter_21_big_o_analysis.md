@@ -142,3 +142,140 @@ Exponential time complexity: O(c^n) (Big Oh of c to the n)
 #### Time complexity of built-in methods
 
 - The built-in methods also take space and time, therefore, they must be counted as part of your algorithm
+
+> If you don't know the time and space complexity of the built-in method, think "How would I implement this?"
+
+- During practice? you can look it up
+- During interview? "Assuming this method takes <X> time, then the time complexity of my algo is <Y>"
+
+### Worst-case, average-case, and best-case analysis
+
+What do we do when we get different time complexities, for the same code, depending on the input?
+
+- Worst-case runtime: the maximum
+- Best case runtime: the minimum
+- Average-case runtime: the average
+  ... number of steps taken by the algorithm for an input of size n
+
+```py
+# worst case: O(n)
+# best case: O(1)
+# average case: depends on on how likely negative values are in the input
+def has_negatives(arr):
+  for elem in arr:
+    if elem < 0:
+      return True
+    return False
+```
+
+> In an interview, you're expected to give the worst-case analysis
+
+- The worst-case is the baseline and also needs to be fast
+
+#### Big O, Big Omega (Ω), Big Theta(Θ)
+
+- In practice, in the industry, big O is only used to give the smallest possible upper bound
+
+- Big O (ceiling): upper bound | worst-case | how bad it can get
+
+  - The maximum growth rate of an algorithm
+  - "This algorithm won't be slower than this order, at scale"
+  - "It can't get much worse"
+
+  > Binary search: O(log n) -> it won't take more than logarithmic steps
+
+- Big Omega (floor): lower bound | best-case | how good it can get
+
+  - The minimum growth rate of an algorithm
+  - "At least, these number of steps are needed"
+
+  > Binary search: Ω(1), because if you're lucky, on the first attempt, the element is found
+
+- Big Theta: tight bound | typical growth | equals both
+
+  - When the upper and lower bounds match
+
+  > Binary search: Θ(log n), because worst and average case both scale as log n
+
+#### A good start: identify the input variables
+
+Be clear about the variables that are represented in the Big O analysis
+
+- Meaning, be clear on what the dependency of Big O relies on
+
+  - Ex: Instead of saying "This algorithm runs in linear time", you should describe what the linear dependency is on. "This algorithm runs in linear time with respect to the length of the string s"
+
+- What does these variables represent in the big O notation?
+
+```
+algo 1: binary search
+n: the length of the array
+T: O(...) // time
+S: O(...) // space
+```
+
+##### Inputs
+
+###### 1. a string, s
+
+we often use the letter `n` for the size of simple inputs like an array of numbers or the length of a string, but we can use a different variable too
+
+```
+n: the length of s
+```
+
+###### 2. two strings (s1, s2) of different lenght:
+
+Although it's possible to use n and m, they can get mixed up. It's better to use variables tied to the string's names
+
+```
+n1: the length of s1
+n2: the length of s2
+
+----
+n1: the length of arr1
+n2: the length of arr2
+T: O(n1 + n2) = O(n1) -> because n1 >= n2
+S: O(...)
+```
+
+###### 3. two strings (s1, s2) of the same length
+
+Since they have the same length, it's okay to use only one variable
+
+```
+n: the length of s1 == the length of s2
+```
+
+> When the input contains multiple strings or arrays, it's an excellent clarifying question for the interviewer to ask if they have the same length
+
+###### 4. an array (arr) of strings of different length
+
+- We need a variable for the length of each string
+- Good approach: analyze the algorithm assuming that all the strings are as long as the longest one
+
+```
+n: the number of strings in arr
+k: the maximum length of any string in arr
+```
+
+###### 5. a two-dimensional matrix, mat
+
+```
+R: number of rows in mat
+C: number of cols in mat
+```
+
+> Many candidates use n and m for matrix dimensions, but R and C are clearer as they are connected with rows and columns
+
+###### 6. a square two-dimensional matrix mat
+
+```
+n: number of rows in mat == number of columns in mat
+```
+
+> Notice how, when using words like "linear" or "quadratic" to describe our runtime, **IT'S CRITICAL TO SPECIFY WHAT THE DEPENDENCY IS ON**
+
+###### 7. a number n
+
+- The only case where you do not need to define the variable is when the input

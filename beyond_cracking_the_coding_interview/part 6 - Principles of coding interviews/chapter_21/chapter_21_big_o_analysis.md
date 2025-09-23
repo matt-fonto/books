@@ -278,4 +278,29 @@ n: number of rows in mat == number of columns in mat
 
 ###### 7. a number n
 
-- The only case where you do not need to define the variable is when the input
+- The only case where you do not need to define the variable is when the input (or one of the inputs) is a number
+
+### Logarithms in Big O analysis
+
+- The logarithm that comes up most often in algorithm analysis is the base-2 logarithm, denoted by log2(n)
+- Mathematically, log2(n) -> 2^a = n
+- There's an alternative way to think about it which is much more relevant to algorithm analysis
+  - Think of log2(n) as **the number of times we have to halve n to reach 1**
+
+```
+log2(1) = 0 -> because n is already 1
+log2(2) = 1 -> because 2/2 = 1 (1 step to halve it)
+log2(4) = 2 (4/2 -> 2/2 -> 2) -> becase we needed to steps to halve it
+log2(12) = 3 (12/2, 6/2, 3/2) -> somewhere between 3 and 4 -> log2(8) = 3 (3 steps), log2(16) = 4 (4 steps)
+```
+
+- Base-two log comes up in algorithms and data structures that employ halving
+  - Binary search: classic example for sorted lists
+    - Each step, we halve the search range
+  - Balanced binary tree, the descendants of each node are split roughtly evenly between left and right subtrees
+  - Merge sort: divide-and-conquer algo that splits the array to sort in half, sorts each half recursively, and finally merges the two sorted halves into a single sorted list
+
+#### Exponential = very fast, logarithimic = very slow
+
+- Logs are essentially the opposite of exponential
+- To score points, the game on the interview is, O(n log n) will get you much more points on the interview than O(n)

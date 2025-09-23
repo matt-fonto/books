@@ -304,3 +304,50 @@ log2(12) = 3 (12/2, 6/2, 3/2) -> somewhere between 3 and 4 -> log2(8) = 3 (3 ste
 
 - Logs are essentially the opposite of exponential
 - To score points, the game on the interview is, O(n log n) will get you much more points on the interview than O(n)
+
+### Space Analysis
+
+- Time complexity is generally more important
+- As computer memory became more available, we shifted the focus from time than space
+- When you initialize a variable, you use memory to hold its value.
+
+- The amount of memory depends on the variable's type:
+
+1. Primitive: all of them don't take more than a few bytes of memory
+
+- They all take O(1)
+
+2. Composite: classes, objects, user-defined
+
+- The space taken is the sum of each filed
+
+```js
+// composite
+const point = {
+  x: 10, // primitive
+  y: 10, // primitive
+};
+
+// x: O(1) + y: O(1) => O(1)
+```
+
+3. Collection types: arrays, strings, sets, maps
+
+- Contain a variable number of elements
+- O(n)
+
+#### Input space vs. extra space
+
+- When analyzing the code's space complexity, it's helpful to differentiate between input memory and extra memory
+- Input memory is the memory taken by our function's inputs
+- Extra memory is memory allocated by our function itself
+
+> Extra memory is what we should analyze, and talk about on interviews, since it's our code directly responsible for it
+
+- When we're asked about the space complexity of an algorithm, we're referring to the extra memory
+
+```
+n: the length of the array
+T: ...
+S: O(1) extra space // write "extra space" to make it clear we're not including the input space
+```

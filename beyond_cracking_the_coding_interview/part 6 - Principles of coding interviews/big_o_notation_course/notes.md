@@ -90,6 +90,7 @@ function cube(n) {
 cube(2); // 2 * 2 * 2 => 4 * 2 => 8
 
 /* 
+// coordinates (x,y,z)
 row col depth
 x   y   z
 0   0   0
@@ -114,7 +115,7 @@ once this is ready, you go to the next level
 */
 ```
 
-I could change this algorithm slightly to first fill in the x, then y, then z, meaning first the "front", then start adding to the back
+We could change this algorithm slightly to first fill in the x, then y, then z, meaning first the "front", then start adding to the back
 
 ```js
 function cubeFillXThenYThenZ(n) {
@@ -131,6 +132,7 @@ function cubeFillXThenYThenZ(n) {
   }
 }
 
+// coordinates (x, y,z)
 000
 100
 --- now go to "y"
@@ -142,4 +144,55 @@ function cubeFillXThenYThenZ(n) {
 ---
 011
 111
+
+// 8 => volume of this cube
 ```
+
+## O(log n)
+
+- Logarithm: number^number = some number
+  - A power that a number needs to be raised to get some other number
+- In computer science, the base number is usually two, therefore, if we want to know the log of 8, we do:
+  - We want to raise some number to some power to get 8
+  - In computer science, unless specified otherwise, we can always assume that the number we want to raise by some power is 2
+    - 2^n = <some-number> (8, in this case)
+      - How many times must I multiply 2 **by itself** to reach <some-number>? => that's the log
+
+```tx
+- 2 is the base in computer science, only if specified otherwise that it's not
+2^? = 8 => what exponent would work to get to 8?
+
+2 * 2 = 4 -> exponent 2 doesn't work (2 repeated twice)
+2 * 2 * 2 = 8 -> exponent 3 works (2 repeated three times works)
+
+Therefore
+
+2^3 = 8
+log(2)8 = 3 => Log base 2 of 8 is 3
+
+Meaning, we need to have a 3 exponent so that 2 is equal to 8
+```
+
+```js
+function recursiveLogFunc(n) {
+  if (n === 0) {
+    return "Done";
+  }
+
+  n = Math.floor(n / 2);
+  return recursiveLogFunc(n);
+}
+
+logFunc(8);
+
+// 8 / 2 = 4 (level 1) -> this value is passed recursively to the function
+// 4 / 2 = 2 (level 2)
+// 2 / 2 = 1 (level 3) -> here we stop, since we can't continue without getting fractions
+
+// we took 3 steps to get to the base case
+```
+
+- Division is the inverse of multiplication
+- Log is the inverse of exponentiation
+
+> We needed to multiply 2 by itself 3 times to get to 8, as we neeed to divide 8 by two (halve) three times to get to 1

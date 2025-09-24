@@ -113,3 +113,33 @@ then, go to x: 1, then x:2, then:3
 once this is ready, you go to the next level
 */
 ```
+
+I could change this algorithm slightly to first fill in the x, then y, then z, meaning first the "front", then start adding to the back
+
+```js
+function cubeFillXThenYThenZ(n) {
+  for (let z = 0; z < n; z++) {
+    for (let y = 0; y < n; y++) {
+      for (let x = 0; x < n; x++) {
+        console.log({
+          x,
+          y,
+          z,
+        });
+      }
+    }
+  }
+}
+
+000
+100
+--- now go to "y"
+010
+110
+--- "front" completed, now, we go to the back
+001
+101
+---
+011
+111
+```

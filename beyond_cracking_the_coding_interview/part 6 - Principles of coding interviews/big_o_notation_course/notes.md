@@ -266,55 +266,9 @@ because 2^2 = 4
 
 ## Merge Sort
 
+- Usually done recursively
 - Merge sort works with divide and conquer
 - The array is halved until we have arrays of length one
   - The array of length 1 is already sorted
 
-```js
-/* 
-[3, 23, 1, 6]
-
-[3, 23] [1, 6]
-
-[3][23]  [1][6]
-*/
-
-function mergeSort(arr) {
-  // since this is recursive, we need a base case!
-  if (arr.length <= 1) {
-    // or arr.length < 2
-    return arr;
-  }
-
-  const mid = Math.floor(arr.length / 2);
-  const left = mergeSort(arr.slice(0, mid)); //slice from the beginnig until the middle
-  const right = mergeSort(arr.slice(mid));
-
-  // merge it
-  return merge(left, right);
-}
-
-// merge will always take ordered arrays
-function merge(left, right) {
-  // new array
-  // two pointers
-  const result = [];
-  let i = 0;
-  let j = 0;
-
-  // loop through them and then add them in order
-  while (i < left.length && j < right.length) {
-    // add them in order
-    if (left[i] < right[j]) {
-      result.push(left[i]);
-      i++;
-    } else {
-      result.push(right[j]);
-      j++;
-    }
-  }
-
-  // it's important that we return everything until the SLICED INDEX
-  return [...result, ...left.slice(i), ...right.slice(j)];
-}
-```
+> See mergeSort.js

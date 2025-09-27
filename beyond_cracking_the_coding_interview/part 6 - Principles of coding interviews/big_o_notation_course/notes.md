@@ -223,3 +223,43 @@ iteration 3: 2/2 = 1
 - Binary search needs ordered array
 
 > See binary_search_iterative.js and binary_search_recursive.js
+
+## O(n log n)
+
+```js
+function nLogNFunc(n) {
+  let y = n; // keeps the original value for n
+
+  // log n => because n is halved at each iteration
+  while (n > 1) {
+    n = Math.floor(n / 2);
+
+    // n => loops through the whole initial array
+    for (let i = 1; i <= y; i++) {
+      console.log(i);
+    }
+  }
+
+  // log n * n = n log n
+}
+
+nLogFunc(4);
+
+/* 
+iteration 1
+n = 4
+4 / 2 = 2
+logs: 1, 2, 3, 4
+
+iteration 2
+n = 2 
+2 / 2 = 1 (stop)
+logs: 1, 2, 3, 4
+
+=====
+O(log n)
+O(log 2 4) => in computer science two is always the log base, except when stated otherwise
+log2 4 => 2: log base 2 of 4 is two
+because 2^2 = 4
+*/
+```
